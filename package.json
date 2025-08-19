@@ -1,0 +1,21 @@
+{
+  "name": "vuepress_blog",
+  "version": "1.0.0",
+  "description": "基于 vuepress 静态网点框架的博客项目！",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blogs",
+    "vuePress",
+    "vuepress-theme-reco"
+  ],
+  "author": "Tang",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}

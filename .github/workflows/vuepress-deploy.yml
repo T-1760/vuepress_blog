@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push: # 每次 push 就会触发 workflows
+    branches:
+      - v0.0.1
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 修改为 write 权限
+      pages: write
+      id-token: write
+
+    steps:
+      - name: 🚀 Checkout 源码
+        uses: actions/checkout@v4
+
+      - name: 🧱 设置 Node.js 环境
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 安装依赖
+        run: npm install
+
+      - name: 🔧 构建项目
+        run: npm run build # 注意查看 package.json 确认命令是否正确
+
+      - name: 🚀 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vuepress/dist # 注意检查位置是否正确
+          commit_message: 'Deploy to GitHub Pages'
+          publish_branch: gh-pages  # 可选，默认就是 gh-pages，可以省略
