@@ -135,7 +135,7 @@ categories:
   | 符号 | 作用 | 备注 |
   |:--|:--|:--|
   | `$` | `$` 置于变量前用于取变量的值 | `echo $PATH` 打印环境变量 `PATH` 的值 |
-  | `${}` | `{}`中放置变量，用于读取变量的值 | `echo ${PATH}path`访问 `PATH` 变量，而非常变量 `PATHpath` 变量 |
+  | `${}` | `{}`中放置变量，用于读取变量的值 | `echo ${PATH} path` 访问 `PATH` 变量，而非常变量 `PATHpath` 变量 |
   | `${:-}` | `${var:-word}` 表示若 `var` 变量为空或 `unset` 已被删除，则返回 `word` 但不改变 `var` 的值 |	|
   | `${:+}` | `${var:+word}` 表示若 `var`变量被定义，则返回 `word` 但不改变 `var` 的值 | |
   | `${:=}` | `${var:=word}` 表示若 `var`变量为空或 `unset` 已被删除，则返回 `word`并将 `var` 值设置为 `word` |	 |
