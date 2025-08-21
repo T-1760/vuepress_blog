@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS @media 媒介查询 | 无常记</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Great Frontend 喜常于记">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.9c8e92e6.css" as="style"><link rel="preload" href="/assets/js/app.f4787d2b.js" as="script"><link rel="preload" href="/assets/js/7.6014fc38.js" as="script"><link rel="preload" href="/assets/js/2.b2ea4d70.js" as="script"><link rel="preload" href="/assets/js/1.306e8637.js" as="script"><link rel="preload" href="/assets/js/109.925b59b2.js" as="script"><link rel="prefetch" href="/assets/js/10.76f70a67.js"><link rel="prefetch" href="/assets/js/100.61f9e901.js"><link rel="prefetch" href="/assets/js/101.43ff8902.js"><link rel="prefetch" href="/assets/js/102.07a12ecd.js"><link rel="prefetch" href="/assets/js/103.5311e511.js"><link rel="prefetch" href="/assets/js/104.dda9250a.js"><link rel="prefetch" href="/assets/js/105.43fe1a57.js"><link rel="prefetch" href="/assets/js/106.ea0ea548.js"><link rel="prefetch" href="/assets/js/107.f18ba224.js"><link rel="prefetch" href="/assets/js/108.44b54035.js"><link rel="prefetch" href="/assets/js/11.13dc6348.js"><link rel="prefetch" href="/assets/js/110.3fa991d2.js"><link rel="prefetch" href="/assets/js/111.1c5335bf.js"><link rel="prefetch" href="/assets/js/112.d94f7ec4.js"><link rel="prefetch" href="/assets/js/113.1ff70105.js"><link rel="prefetch" href="/assets/js/114.8e458c02.js"><link rel="prefetch" href="/assets/js/115.e664f086.js"><link rel="prefetch" href="/assets/js/116.a3a754f7.js"><link rel="prefetch" href="/assets/js/117.da87da33.js"><link rel="prefetch" href="/assets/js/118.91925ad1.js"><link rel="prefetch" href="/assets/js/119.eceba799.js"><link rel="prefetch" href="/assets/js/120.5e7290ea.js"><link rel="prefetch" href="/assets/js/121.e56ff013.js"><link rel="prefetch" href="/assets/js/122.f53386ec.js"><link rel="prefetch" href="/assets/js/123.5bf15ab9.js"><link rel="prefetch" href="/assets/js/124.eb03f1e3.js"><link rel="prefetch" href="/assets/js/125.10cfe07a.js"><link rel="prefetch" href="/assets/js/126.4b02c6ae.js"><link rel="prefetch" href="/assets/js/127.69fae506.js"><link rel="prefetch" href="/assets/js/128.4314fe8b.js"><link rel="prefetch" href="/assets/js/129.aac32fae.js"><link rel="prefetch" href="/assets/js/130.4ee438f4.js"><link rel="prefetch" href="/assets/js/131.cc7b8c3a.js"><link rel="prefetch" href="/assets/js/132.cf900371.js"><link rel="prefetch" href="/assets/js/133.87523b64.js"><link rel="prefetch" href="/assets/js/134.5321dc9f.js"><link rel="prefetch" href="/assets/js/135.774a4043.js"><link rel="prefetch" href="/assets/js/136.94bba41d.js"><link rel="prefetch" href="/assets/js/137.a6e7ebb0.js"><link rel="prefetch" href="/assets/js/138.2a60fea6.js"><link rel="prefetch" href="/assets/js/139.403eb00f.js"><link rel="prefetch" href="/assets/js/14.5a8ce92d.js"><link rel="prefetch" href="/assets/js/140.ba89aa8f.js"><link rel="prefetch" href="/assets/js/141.cb6874ae.js"><link rel="prefetch" href="/assets/js/142.96bdcd70.js"><link rel="prefetch" href="/assets/js/143.ec93603f.js"><link rel="prefetch" href="/assets/js/144.3f1d4c6b.js"><link rel="prefetch" href="/assets/js/145.1570c646.js"><link rel="prefetch" href="/assets/js/146.fe5c2b3a.js"><link rel="prefetch" href="/assets/js/147.4160184e.js"><link rel="prefetch" href="/assets/js/148.d48cf8ea.js"><link rel="prefetch" href="/assets/js/149.1eb12312.js"><link rel="prefetch" href="/assets/js/15.e5e3ef49.js"><link rel="prefetch" href="/assets/js/150.7487949e.js"><link rel="prefetch" href="/assets/js/151.06401676.js"><link rel="prefetch" href="/assets/js/16.d7731f4a.js"><link rel="prefetch" href="/assets/js/17.f42b45ed.js"><link rel="prefetch" href="/assets/js/18.e167e170.js"><link rel="prefetch" href="/assets/js/19.afef1395.js"><link rel="prefetch" href="/assets/js/20.8b346d7c.js"><link rel="prefetch" href="/assets/js/21.bf6a5fbc.js"><link rel="prefetch" href="/assets/js/22.1cea6132.js"><link rel="prefetch" href="/assets/js/23.77b8e5ba.js"><link rel="prefetch" href="/assets/js/24.f9cd67d8.js"><link rel="prefetch" href="/assets/js/25.3b7df832.js"><link rel="prefetch" href="/assets/js/26.c2737c12.js"><link rel="prefetch" href="/assets/js/27.0788bf79.js"><link rel="prefetch" href="/assets/js/28.956c068b.js"><link rel="prefetch" href="/assets/js/29.393e37d4.js"><link rel="prefetch" href="/assets/js/3.6a393091.js"><link rel="prefetch" href="/assets/js/30.7ba391e5.js"><link rel="prefetch" href="/assets/js/31.deea8b12.js"><link rel="prefetch" href="/assets/js/32.98e78059.js"><link rel="prefetch" href="/assets/js/33.829f1606.js"><link rel="prefetch" href="/assets/js/34.259f8ab0.js"><link rel="prefetch" href="/assets/js/35.b430d82a.js"><link rel="prefetch" href="/assets/js/36.0a2f31e5.js"><link rel="prefetch" href="/assets/js/37.789fa4b5.js"><link rel="prefetch" href="/assets/js/38.b45a7417.js"><link rel="prefetch" href="/assets/js/39.08985f53.js"><link rel="prefetch" href="/assets/js/4.dc06fd3c.js"><link rel="prefetch" href="/assets/js/40.4f981026.js"><link rel="prefetch" href="/assets/js/41.1ad5dd67.js"><link rel="prefetch" href="/assets/js/42.5619223a.js"><link rel="prefetch" href="/assets/js/43.76ce93d6.js"><link rel="prefetch" href="/assets/js/44.1f086418.js"><link rel="prefetch" href="/assets/js/45.39b30da8.js"><link rel="prefetch" href="/assets/js/46.d80c4bff.js"><link rel="prefetch" href="/assets/js/47.418ad708.js"><link rel="prefetch" href="/assets/js/48.898dc177.js"><link rel="prefetch" href="/assets/js/49.3de11f93.js"><link rel="prefetch" href="/assets/js/5.3b2816db.js"><link rel="prefetch" href="/assets/js/50.9248f264.js"><link rel="prefetch" href="/assets/js/51.6ec91fa0.js"><link rel="prefetch" href="/assets/js/52.a23a29f5.js"><link rel="prefetch" href="/assets/js/53.068dd25f.js"><link rel="prefetch" href="/assets/js/54.7fb27f7a.js"><link rel="prefetch" href="/assets/js/55.54c82e1e.js"><link rel="prefetch" href="/assets/js/56.3af4b7fe.js"><link rel="prefetch" href="/assets/js/57.eae2d3e3.js"><link rel="prefetch" href="/assets/js/58.5712773b.js"><link rel="prefetch" href="/assets/js/59.8c3f6b52.js"><link rel="prefetch" href="/assets/js/6.6df4031d.js"><link rel="prefetch" href="/assets/js/60.cc7aa06b.js"><link rel="prefetch" href="/assets/js/61.dece704a.js"><link rel="prefetch" href="/assets/js/62.1efbe41b.js"><link rel="prefetch" href="/assets/js/63.8eac4e00.js"><link rel="prefetch" href="/assets/js/64.ae730311.js"><link rel="prefetch" href="/assets/js/65.1024354f.js"><link rel="prefetch" href="/assets/js/66.0ee525a9.js"><link rel="prefetch" href="/assets/js/67.8ccbf6cf.js"><link rel="prefetch" href="/assets/js/68.64bf377c.js"><link rel="prefetch" href="/assets/js/69.ef75d118.js"><link rel="prefetch" href="/assets/js/70.338dc057.js"><link rel="prefetch" href="/assets/js/71.d32febfa.js"><link rel="prefetch" href="/assets/js/72.b1368bd5.js"><link rel="prefetch" href="/assets/js/73.cedec7b2.js"><link rel="prefetch" href="/assets/js/74.def64e47.js"><link rel="prefetch" href="/assets/js/75.44c2b5b1.js"><link rel="prefetch" href="/assets/js/76.066ef85a.js"><link rel="prefetch" href="/assets/js/77.4e2fa5a2.js"><link rel="prefetch" href="/assets/js/78.7de60b19.js"><link rel="prefetch" href="/assets/js/79.d1225d81.js"><link rel="prefetch" href="/assets/js/8.228c09ba.js"><link rel="prefetch" href="/assets/js/80.70df6d6f.js"><link rel="prefetch" href="/assets/js/81.87bdad28.js"><link rel="prefetch" href="/assets/js/82.ca37b965.js"><link rel="prefetch" href="/assets/js/83.55626d16.js"><link rel="prefetch" href="/assets/js/84.fa5e3006.js"><link rel="prefetch" href="/assets/js/85.76c60b82.js"><link rel="prefetch" href="/assets/js/86.d93ceec3.js"><link rel="prefetch" href="/assets/js/87.e8a9cd53.js"><link rel="prefetch" href="/assets/js/88.d4bae1be.js"><link rel="prefetch" href="/assets/js/89.34ddcf4a.js"><link rel="prefetch" href="/assets/js/9.178045de.js"><link rel="prefetch" href="/assets/js/90.62cafbec.js"><link rel="prefetch" href="/assets/js/91.68248d0c.js"><link rel="prefetch" href="/assets/js/92.fa08a613.js"><link rel="prefetch" href="/assets/js/93.27a5c6b3.js"><link rel="prefetch" href="/assets/js/94.9d0620d7.js"><link rel="prefetch" href="/assets/js/95.c8cbd92e.js"><link rel="prefetch" href="/assets/js/96.02b29612.js"><link rel="prefetch" href="/assets/js/97.c254daba.js"><link rel="prefetch" href="/assets/js/98.838513ca.js"><link rel="prefetch" href="/assets/js/99.538f1065.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.3cdde86e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9c8e92e6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>无常记</h3> <p class="description" data-v-59e6cb88>Great Frontend 喜常于记</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Tang_1997</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2025
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/favicon.ico" alt="无常记" class="logo"> <span class="site-name">无常记</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/HTML/" class="nav-link"><i class="iconfont reco-message"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/docs/CSS/" class="nav-link router-link-active"><i class="iconfont reco-message"></i>
+  CSS
+</a></li><li class="dropdown-item"><h4>JavaScript</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/JavaScript/ECMAScript/" class="nav-link"><i class="iconfont reco-message"></i>
+  ECMAScript
+</a></li><li class="dropdown-subitem"><a href="/docs/JavaScript/Web_API/" class="nav-link"><i class="iconfont reco-message"></i>
+  WebAPI
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      工程化
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Development/Standard/" class="nav-link"><i class="undefined"></i>
+  开发规范
+</a></li></ul></div></div><div class="nav-item"><a href="/collector/" class="nav-link"><i class="iconfont reco-message"></i>
+  收藏家
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/NodeJS/" class="nav-link"><i class="undefined"></i>
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/HarmonyOS/" class="nav-link"><i class="undefined"></i>
+  HormonyOS
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/computer_software_exam/" class="nav-link"><i class="undefined"></i>
+  软考
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/civil_service_exam/" class="nav-link"><i class="undefined"></i>
+  End
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    Tang_1997
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>112</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>213</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41><li class="social-item" data-v-1fad0c41><i class="iconfont reco-github" style="color:#849b87;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-npm" style="color:#abbd81;" data-v-1fad0c41></i></li></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-home"></i>
+      FrontEnd
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/HTML/" class="nav-link"><i class="iconfont reco-message"></i>
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/docs/CSS/" class="nav-link router-link-active"><i class="iconfont reco-message"></i>
+  CSS
+</a></li><li class="dropdown-item"><h4>JavaScript</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/JavaScript/ECMAScript/" class="nav-link"><i class="iconfont reco-message"></i>
+  ECMAScript
+</a></li><li class="dropdown-subitem"><a href="/docs/JavaScript/Web_API/" class="nav-link"><i class="iconfont reco-message"></i>
+  WebAPI
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      工程化
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/Development/Standard/" class="nav-link"><i class="undefined"></i>
+  开发规范
+</a></li></ul></div></div><div class="nav-item"><a href="/collector/" class="nav-link"><i class="iconfont reco-message"></i>
+  收藏家
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/NodeJS/" class="nav-link"><i class="undefined"></i>
+  Node.js
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/HarmonyOS/" class="nav-link"><i class="undefined"></i>
+  HormonyOS
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/computer_software_exam/" class="nav-link"><i class="undefined"></i>
+  软考
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/civil_service_exam/" class="nav-link"><i class="undefined"></i>
+  End
+</a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>样式</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/CSS/" aria-current="page" class="sidebar-link">CSS 层叠样式表</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>CSS @media 媒介查询</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Tang_1997</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2025
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">CSS @media 媒介查询</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>Tang_1997</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2023/10/18</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>CSS @media</span><span class="tag-item" data-v-8a445198>媒介查询</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="media"><a href="#media" class="header-anchor">#</a> @media</h2> <ul><li>当且仅当该媒体查询与正在使用其内容的设备匹配时，该 CSS 块样式应用于该文档
+<ul><li>使用设备若满足媒介查询的条件，则条件规则组里的规则生效</li></ul></li> <li>语法：<div class="language-css extra-class"><pre class="language-css"><code>  <span class="token atrule"><span class="token rule">@media</span> MediaType_1<span class="token punctuation">,</span> MediaType_2 [<span class="token keyword">and</span>|<span class="token keyword">not</span>|<span class="token keyword">only</span>] <span class="token punctuation">(</span>媒体特性<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token comment">/*  &lt;rule-list&gt;  */</span>
+  <span class="token punctuation">}</span>      
+</code></pre></div></li></ul> <h3 id="媒体类型"><a href="#媒体类型" class="header-anchor">#</a> 媒体类型</h3> <ul><li>媒体类型（media type）：描述设备的一般类别。
+<ul><li>除非使用 <code>not</code> 或 <code>only</code> 逻辑运算符，否则媒体类型是可选的，且（隐式地）应用 <code>all</code> 类型。</li></ul></li> <li>媒体类型
+<ul><li><code>all</code>：所有设备</li> <li><code>screen</code>：屏幕</li> <li><code>print</code>：打印</li> <li><code>projection</code>：投影 （将启用）</li> <li><code>handheld</code>：手持设备（将启用）</li> <li><code>aural</code>：声音设备（将启用）</li></ul> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token comment">/* 多个媒体类型用 `,` 分隔 */</span>
+  <span class="token atrule"><span class="token rule">@media</span> screen<span class="token punctuation">,</span> print</span><span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">line-height</span><span class="token punctuation">:</span> 1.2<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token keyword">only</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 320px<span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> 480px<span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">resolution</span><span class="token punctuation">:</span> 150dpi<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">line-height</span><span class="token punctuation">:</span> 1.4<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token atrule"><span class="token rule">@media</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 900px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">.container</span> <span class="token punctuation">{</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 1rem 3rem<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">/* 嵌套至其他的 @ 条件规则中 */</span>
+  <span class="token atrule"><span class="token rule">@supports</span> <span class="token punctuation">(</span><span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token atrule"><span class="token rule">@media</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 900px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+      <span class="token selector">.container</span> <span class="token punctuation">{</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h3 id="逻辑运算符"><a href="#逻辑运算符" class="header-anchor">#</a> 逻辑运算符</h3> <ul><li>逻辑运算符（logical operator）：用于联合构造复杂的（多个用 <code>,</code> 分隔）媒体查询。
+<ul><li><code>not</code></li> <li><code>and</code></li> <li><code>only</code></li> <li><code>or</code></li></ul></li></ul> <h4 id="not"><a href="#not" class="header-anchor">#</a> not</h4> <ul><li>用于否定媒体查询，若不满足条件，则返回 <code>true</code> 反之 <code>false</code>。
+<ul><li>如果在以 <code>,</code> 分隔的查询列表中，将仅否定应用了该查询的特定查询。</li> <li>如果使用 <code>not</code> 运算符，则还必须指定媒体类型。</li></ul></li></ul> <h4 id="and"><a href="#and" class="header-anchor">#</a> and</h4> <ul><li>用于将多个媒体查询规则组合成单条媒体查询，
+<ul><li>当每个查询规则都成立时，则该条媒体查询为 <code>true</code>，还用于将媒体特性与媒体类型结合在一起。</li> <li>在第 3 版中，<code>not</code>关键字不能用于否定单个媒体特性表达式，只能用于否定整个媒体查询。</li></ul></li></ul> <h4 id="only"><a href="#only" class="header-anchor">#</a> only</h4> <ul><li>仅在整个查询匹配时才应用样式。对向下浏览器兼容性友好。
+<ul><li>当不使用 <code>only</code> 时，较老浏览器会将 <code>screen and (max-width: 500px)</code> 简单理解 <code>screen</code>将忽略查询的其余部分，并将其样式应用于所有屏幕。</li> <li>如果使用 <code>only</code> 时，则还必须指定媒体类型。</li></ul></li></ul> <h4 id="or"><a href="#or" class="header-anchor">#</a> or</h4> <ul><li>等价于 <code>,</code> 运算符。
+<ul><li>添加于媒体查询v4。</li></ul></li></ul> <h4 id="逗号"><a href="#逗号" class="header-anchor">#</a> , 逗号</h4> <ul><li>逗号用于将多个媒体查询合并为一个规则。逗号分隔列表中的每个查询都与其他查询分开处理
+<ul><li>如果列表中的任一查询为 <code>true</code>，则整个媒体查询返回 <code>true</code>。</li> <li>列表的行为类似于 <code>or</code> 逻辑或运算符。</li></ul></li></ul> <h3 id="媒体特性"><a href="#媒体特性" class="header-anchor">#</a> 媒体特性</h3> <ul><li>媒体特性（media feature）：描述了用户代理、输出设备或环境的具体特征。媒体特性表达式是完全可选的</li> <li>媒体特性属性
+<ul><li><code>width</code>：视口的宽度（包括纵向滚动条）。</li> <li><code>min-width</code>：视口最小宽度</li> <li><code>max-width</code>：视口最大宽度</li> <li><code>height</code>：视口的高度（包括纵向滚动条）。</li> <li><code>min-height</code>：视口最小高度</li> <li><code>max-height</code>：视口最大高度</li> <li><code>orientation</code>：视口的旋转方向。
+<ul><li><code>landscape</code>：横屏</li> <li><code>portrait</code>：竖屏</li></ul></li> <li><code>grid</code>：输出设备使用网格屏幕还是点阵屏幕？</li> <li><code>any-hover</code>：是否有任何可用的输入机制允许用户（鼠标等）悬停在元素上
+<ul><li>添加于媒体查询v4</li></ul></li> <li><code>any-pointer</code>：可用的输入机制中是否有任何指针设备，如果有，它的精度如何？
+<ul><li>添加于媒体查询v4</li></ul></li> <li><code>aspect-ratio</code>： 视口（viewport）的宽高比。</li> <li><code>color</code>：输出设备每个颜色分量的比特值，
+<ul><li>如果设备不支持输出彩色，则该值为 <code>0</code>。</li></ul></li> <li><code>color-gamut</code>：用户代理和输出设备大致程度上支持的色域。
+<ul><li>添加于媒体查询v4</li></ul></li> <li><code>color-index</code>：输出设备的颜色查询表（color lookup table）中的条目数量，
+<ul><li>如果设备不使用颜色查询表，则该值为 <code>0</code>。</li></ul></li> <li><code>display-mode</code>：应用程序的显示模式，
+<ul><li>显示模式由 web 应用的清单（manifest）中的 <code>display</code> 成员所指定。</li></ul></li> <li><code>dynamic-range</code>：用户代理和输出设备支持的亮度、对比度和色彩深度的组合。
+<ul><li>添加于媒体查询v5。</li></ul></li> <li><code>forced-colors</code>：检测用户代理是否限制调色板。
+<ul><li>添加于媒体查询v5。</li></ul></li> <li><code>hover</code>：主输入机制是否允许用户在元素上悬停。
+<ul><li>添加于媒体查询v4。</li></ul></li> <li><code>inverted-colors</code>：用户代理或者底层操作系统是否反转了颜色。
+<ul><li>添加于媒体查询v5。</li></ul></li> <li><code>monochrome</code>：输出设备单色帧缓冲区中每个像素的位深度。
+<ul><li>如果设备并非单色屏幕，则该值为 <code>0</code>。</li></ul></li> <li><code>overflow-block</code>：输出设备如何处理沿块轴溢出视口的内容。
+<ul><li>添加于媒体查询v4。</li></ul></li> <li><code>overflow-inline</code>：沿行轴溢出视口的内容是否可以滚动。
+<ul><li>添加于媒体查询v4。</li></ul></li> <li><code>pointer</code>：主输入机制是一个指针设备吗？如果是，它的精度如何？
+<ul><li>添加于媒体查询v4。</li></ul></li> <li><code>prefers-color-scheme</code>：用户倾向于选择亮色、暗色的（明暗）配色主题。
+<ul><li><code>light</code>：明亮（白昼）主题</li> <li><code>dark</code>：暗黑（夜间）主题</li></ul> <ul><li>添加于媒体查询v5。</li></ul></li> <li><code>prefers-contrast</code>：用户是否有向系统调整相近颜色之间的对比度（内容色彩对比度）。
+<ul><li><code>no-preference</code>（默认值）：不作变化</li> <li><code>less</code>：使用对比度更低的界面</li> <li><code>more</code>：使用对比度更高的界面</li></ul> <ul><li>添加于媒体查询v5。</li></ul></li> <li><code>prefers-reduced-motion</code>：用户是否希望页面上出现更少的动态效果（减弱动画效果）。
+<ul><li><code>reduce</code>：删除或替换掉一些（让部分视觉运动障碍者）不适的动画类型</li> <li>添加于媒体查询v5。</li></ul></li> <li><code>resolution</code>：输出设备的像素密度（分辨率）。</li> <li><code>scripting</code>：检测脚本（如 JavaScript）是否可用。
+<ul><li>添加于媒体查询v5。</li></ul></li> <li><code>video-dynamic-range</code>：用户代理的视频平面和输出设备支持的亮度、对比度及色彩深度的组合。
+<ul><li>添加于媒体查询v5。</li></ul></li></ul></li></ul> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token atrule"><span class="token rule">@media</span> screen <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">min-width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">)</span> <span class="token keyword">and</span> <span class="token punctuation">(</span><span class="token property">max-width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>         
+
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">/* 媒体查询第 4 版新的范围语法 */</span>
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span>height &gt; 600px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">line-height</span><span class="token punctuation">:</span> 1.4<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span>400px &lt;= width &lt;= 700px<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">line-height</span><span class="token punctuation">:</span> 1.4<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  
+  <span class="token comment">/* 明暗主题 */</span>
+  <span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-color-scheme</span><span class="token punctuation">:</span> dark<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">background</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
+      <span class="token property">color</span><span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">/* 内容色彩对比度 */</span>
+  <span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span> // 文字与背景对比度为 5.74
+    <span class="token property">color</span><span class="token punctuation">:</span> #666<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token atrule"><span class="token rule">@media</span> <span class="token punctuation">(</span><span class="token property">prefers-contrast</span><span class="token punctuation">:</span> more<span class="token punctuation">)</span></span> <span class="token punctuation">{</span>
+    <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">background</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span> // 文字与背景对比度为 21
+      <span class="token property">color</span><span class="token punctuation">:</span> #000<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h2 id="无障碍考虑"><a href="#无障碍考虑" class="header-anchor">#</a> 无障碍考虑</h2> <ul><li>适应调整网站文本大小的用户，在媒体查询中推荐使用 <code>em</code> 单位。
+<ul><li><code>em</code> 和 <code>px</code> 都是有效单位，若用户更改浏览器文本大小，<code>em</code> 的效果会更好。</li></ul></li> <li>使用媒体查询第 4 版 <code>prefers-reduced-motion</code> 以检测用户是否已请求系统最小化其使用的动画或动作。</li></ul> <h2 id="参考资料"><a href="#参考资料" class="header-anchor">#</a> 参考资料</h2> <ul><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media" target="_blank" rel="noopener noreferrer">MDN @media<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新时间: </span> <span class="time">2025/8/21 15:03:23</span></div></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#media" class="sidebar-link reco-side-media" data-v-b57cc07c>@media</a></li><li class="level-3" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#媒体类型" class="sidebar-link reco-side-媒体类型" data-v-b57cc07c>媒体类型</a></li><li class="level-3" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#逻辑运算符" class="sidebar-link reco-side-逻辑运算符" data-v-b57cc07c>逻辑运算符</a></li><li class="level-3" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#媒体特性" class="sidebar-link reco-side-媒体特性" data-v-b57cc07c>媒体特性</a></li><li class="level-2" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#无障碍考虑" class="sidebar-link reco-side-无障碍考虑" data-v-b57cc07c>无障碍考虑</a></li><li class="level-2" data-v-b57cc07c><a href="/docs/CSS/@_rule/media.html#参考资料" class="sidebar-link reco-side-参考资料" data-v-b57cc07c>参考资料</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.f4787d2b.js" defer></script><script src="/assets/js/7.6014fc38.js" defer></script><script src="/assets/js/2.b2ea4d70.js" defer></script><script src="/assets/js/1.306e8637.js" defer></script><script src="/assets/js/109.925b59b2.js" defer></script>
+  </body>
+</html>
