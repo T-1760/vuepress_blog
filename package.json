@@ -1,4 +1,5 @@
 {
+  "homepage": "https://t-1760.github.io/vuepress_blog",
   "name": "vuepress_blog",
   "version": "1.0.0",
   "description": "基于 vuepress 静态网点框架的博客项目！",
